@@ -7,44 +7,53 @@ html{
 .cim{
     font-size: 75px;
     font-weight: bold;
-    text-align: center;
-    background-color: darkblue;
     color: antiquewhite;
+    margin: 0px;
+}
+header{
+    background-color: darkblue;
+    text-align: center;
 }
 .container{
     display: flex;
-    grid-template-rows: 1fr 2fr;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 3fr;
     align-items: start;
-    gap: 10px;
 }
-.menu{
-    border: 5px solid antiquewhite;  
+nav{
+    margin:0;
+    border-top: 5px solid antiquewhite;  
+    border-bottom: 5px solid antiquewhite; 
     color: antiquewhite;
-    border-radius: 5px;
     background-color: darkblue;
     box-sizing: border-box;
     text-align: left;
     position: sticky;
-    top: 1rem;
-    overflow: auto;
+    overflow: hidden;
     font-family: "Poltawski Nowy", serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: italic;
-    font-size: 20px;
+    font-size: 30px;
     margin: 5px;
     padding: 2px;
 }
-nav > p{
-    text-align: center;
-    margin: 0;
-    padding: 0;
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: darkblue;
+  display: flex;
+  justify-content: center;
 }
-nav > ul{
-    padding: 0px;
-    margin: 0px;
-    width: inherit;
-    list-style-type: none;
+ul li a {
+  display: block;
+  color: antiquewhite;
+  padding: 14px 16px;
+  text-decoration: none;
 }
+
 /*linkek szerkeszutése*/
 a.oldal:link{
     color: antiquewhite;
@@ -87,7 +96,7 @@ p{
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
     }
 
