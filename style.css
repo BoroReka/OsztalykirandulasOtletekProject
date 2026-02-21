@@ -12,15 +12,10 @@ html{
     color: antiquewhite;
 }
 .container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-    grid-template-rows: 1fr 2fr;
-    flex:1 0 0;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
+    display: grid;
+    grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+    align-items: start;
+    gap: 10px;
 }
 .menu{
     border: 5px solid antiquewhite;  
@@ -30,12 +25,13 @@ html{
     box-sizing: border-box;
     text-align: left;
     position: sticky;
-    top: 20vh;
-    overflow: hidden;
+    top: 1rem;
+    max-height: calc(100vh - 2rem);
+    overflow: auto;
     font-family: "Poltawski Nowy", serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 30px;
+    font-size: clamp(1rem, 2vw, 1.9rem);
     margin: 5px;
     padding: 2px;
 }
@@ -77,5 +73,22 @@ a.oldal:focus{
 
 .content{
     margin: 5px;
-    font-size: 25px;
+    min-width: 0;
+    font-size: clamp(1rem, 1.6vw, 1.5625rem);
+}
+
+@media (max-width: 900px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+
+    .menu{
+        position: static;
+        top: auto;
+        max-height: none;
+    }
+
+    .cim{
+        font-size: clamp(2rem, 7vw, 4.6875rem);
+    }
 }
