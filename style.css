@@ -14,7 +14,7 @@ html{
     border-radius: 14px;
 }
 header{
-    background-color: rgb(25, 115, 131);
+    background-color: darkblue;
     text-align: center;
 }
 .container{
@@ -60,16 +60,6 @@ hr{
 }
 
 /*linkek szerkesztése*/
-
-a{
-    font-family: "Libre Franklin", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    text-align: left;
-    font-size: 22px;
-}
-        
 a.oldal:link{
     color: antiquewhite;
     background-color: darkblue;
@@ -111,22 +101,29 @@ a.oldal:focus{
 p{
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 300;
     font-style: normal;
-    font-size: 20px;
+    font-size: 25px;
+    text-align: left;
     }
 
 h2{
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
+    font-weight: 500;
     font-size: 50px;
+    font-style: normal;
+    text-align: left;
     }
 h3{
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 500;
+    font-size: 30px;
     font-style: normal;
+    text-align: left;
 }
 
+a{
+    font-size: 20px;
+}
