@@ -100,6 +100,15 @@ h2{
     margin-left: 240px;
     text-align: left;
     }
+h3{
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    margin-left: 240px;
+    text-align: left;
+}
 
 @media (max-width: 900px){
     .container{
