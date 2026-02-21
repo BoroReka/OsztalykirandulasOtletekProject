@@ -2,11 +2,14 @@ html{
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
+    background-color: lightblue;
 }
 .cim{
     font-size: 75px;
     font-weight: bold;
     text-align: center;
+    background-color: darkblue;
+    color: antiquewhite;
 }
 .container{
     display: flex;
@@ -29,6 +32,7 @@ html{
     font-weight: 400;
     font-style: italic;
     font-size: 20px;
+    margin: 5px;
 }
 nav > p{
     text-align: center;
@@ -39,6 +43,7 @@ nav > ul{
     width: inherit;
     list-style-type: none;
 }
+/*linkek szerkeszutése*/
 a.oldal:link{
     color: antiquewhite;
     background-color: darkblue;
@@ -66,5 +71,5 @@ a.oldal:focus{
 }
 
 .content{
-
+    margin: 5px;
 }
