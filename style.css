@@ -22,6 +22,9 @@ header{
     grid-template-rows: 3fr 1fr;
     align-items: start;
 }
+ul{
+    font-size: 25px;
+}
 nav{
     margin:0;
     border-top: 5px solid antiquewhite;  
@@ -98,7 +101,7 @@ a.oldal:focus{
 p{
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 500;
     font-style: normal;
     font-size: 25px;
     text-align: left;
@@ -107,7 +110,7 @@ p{
 h2{
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 50px;
     font-style: normal;
     text-align: left;
