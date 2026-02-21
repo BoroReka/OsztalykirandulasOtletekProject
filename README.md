@@ -13,5 +13,5 @@ A munkájukról egyetlen GIT linket kérünk beadni, amin a munkafolyamatot és 
 Választott témák
 Múzeum: Szentendrei Szabadteri Muzezeum
 Város: Margit-sziget Bp-en nevezetesség: zenélő szökőkút, kis állatkert, utánna Mystique szabadulószoba a Margit hídon keresztül
-Természet: Magyarorszag
-Szabadidős: Paintball
+Természet: túra kékvonal
+Szabadidős: paintball
