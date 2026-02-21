@@ -28,6 +28,7 @@ html{
     font-family: "Poltawski Nowy", serif;
     font-weight: 400;
     font-style: italic;
+    font-size: 20px;
 }
 nav > p{
     text-align: center;
@@ -35,6 +36,7 @@ nav > p{
 nav > ul{
     padding: 0px;
     margin: 0px;
+    width: inherit;
     list-style-type: none;
 }
 a.oldal:link{
