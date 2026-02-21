@@ -85,9 +85,8 @@ a.oldal:focus{
 p{
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 300;
     font-style: normal;
-    margin-left: 260px;
     font-size: 20px;
     text-align: left;
     }
@@ -98,7 +97,6 @@ h2{
     font-weight: 500;
     font-size: 50px;
     font-style: normal;
-    margin-left: 240px;
     text-align: left;
     }
 h3{
