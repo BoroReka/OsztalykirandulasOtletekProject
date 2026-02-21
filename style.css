@@ -30,7 +30,6 @@ nav{
     background-color: darkblue;
     box-sizing: border-box;
     text-align: left;
-    position: sticky;
     overflow: hidden;
     font-family: "Poltawski Nowy", serif;
     font-weight: 600;
@@ -53,8 +52,11 @@ ul li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+hr{
+    margin: 5px;
+}
 
-/*linkek szerkeszutése*/
+/*linkek szerkesztése*/
 a.oldal:link{
     color: antiquewhite;
     background-color: darkblue;
