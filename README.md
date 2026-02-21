@@ -13,5 +13,6 @@ A munkájukról egyetlen GIT linket kérünk beadni, amin a munkafolyamatot és 
 Választott témák
 Múzeum: Szentendrei Szabadteri Muzezeum
 Város: Margit-sziget Bp-en nevezetesség: zenélő szökőkút, kis állatkert, utánna Mystique szabadulószoba a Margit hídon keresztül
-Természet: túra kékvonal
-Szabadidős: paintball
+Természet: Magyarorszag
+Szabadidős: Paintball
+edit: Összebugolt a 2 terminalom, kerem ne vegyek figyelembe a branch elozmenyeket. (en sem tudom mi tortent, egy git ujratelepites megoldotta)
