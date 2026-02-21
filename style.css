@@ -9,9 +9,12 @@ html{
     font-weight: bold;
     color: antiquewhite;
     margin: 0px;
+    font-family: "Libre Franklin", sans-serif;
+    border: white 2px solid;
+    border-radius: 14px;
 }
 header{
-    background-color: darkblue;
+    background-color: rgb(25, 115, 131);
     text-align: center;
 }
 .container{
@@ -57,6 +60,16 @@ hr{
 }
 
 /*linkek szerkesztése*/
+
+a{
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    font-size: 22px;
+}
+        
 a.oldal:link{
     color: antiquewhite;
     background-color: darkblue;
@@ -98,26 +111,22 @@ a.oldal:focus{
 p{
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 100;
     font-style: normal;
-    font-size: 25px;
-    text-align: left;
+    font-size: 20px;
     }
 
 h2{
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
-    font-size: 50px;
+    font-weight: 100;
     font-style: normal;
-    text-align: left;
+    font-size: 50px;
     }
 h3{
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
-    font-size: 30px;
+    font-weight: 100;
     font-style: normal;
-    text-align: left;
 }
 
