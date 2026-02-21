@@ -73,9 +73,33 @@ a.oldal:focus{
 
 .content{
     margin: 5px;
-    min-width: 0;
-    font-size: clamp(1rem, 1.6vw, 1.5625rem);
+
 }
+.libre-franklin- {
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    }
+p{
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    margin-left: 260px;
+    font-size: 20px;
+    text-align: left;
+    }
+
+h2{
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 50px;
+    font-style: normal;
+    margin-left: 240px;
+    text-align: left;
+    }
 
 @media (max-width: 900px){
     .container{
