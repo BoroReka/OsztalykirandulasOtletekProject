@@ -16,3 +16,4 @@ Város: Margit-sziget Bp-en nevezetesség: zenélő szökőkút, kis állatkert,
 Természet: Magyarorszag
 Szabadidős: Paintball
 edit: Összebugolt a 2 terminalom, kerem ne vegyek figyelembe a branch elozmenyeket. (en sem tudom mi tortent, egy git ujratelepites megoldotta)
+edit JR: sok branch és merge van amiről ötletem sincs honna jöttek, amikor pulloltam kérte hogy merge legyen
