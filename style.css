@@ -12,8 +12,8 @@ html{
     color: antiquewhite;
 }
 .container{
-    display: grid;
-    grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+    display: flex;
+    grid-template-rows: 1fr 2fr;
     align-items: start;
     gap: 10px;
 }
@@ -26,17 +26,18 @@ html{
     text-align: left;
     position: sticky;
     top: 1rem;
-    max-height: calc(100vh - 2rem);
     overflow: auto;
     font-family: "Poltawski Nowy", serif;
     font-weight: 400;
     font-style: italic;
-    font-size: clamp(1rem, 2vw, 1.9rem);
+    font-size: 20px;
     margin: 5px;
     padding: 2px;
 }
 nav > p{
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 nav > ul{
     padding: 0px;
@@ -106,22 +107,6 @@ h3{
     font-weight: 500;
     font-size: 30px;
     font-style: normal;
-    margin-left: 240px;
     text-align: left;
 }
 
-@media (max-width: 900px){
-    .container{
-        grid-template-columns: 1fr;
-    }
-
-    .menu{
-        position: static;
-        top: auto;
-        max-height: none;
-    }
-
-    .cim{
-        font-size: clamp(2rem, 7vw, 4.6875rem);
-    }
-}
