@@ -16,7 +16,11 @@ html{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: 1fr 2fr;
+    flex:1 0 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
 }
 .menu{
     border: 5px solid antiquewhite;  
@@ -31,8 +35,9 @@ html{
     font-family: "Poltawski Nowy", serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 20px;
+    font-size: 30px;
     margin: 5px;
+    padding: 2px;
 }
 nav > p{
     text-align: center;
@@ -72,4 +77,5 @@ a.oldal:focus{
 
 .content{
     margin: 5px;
+    font-size: 25px;
 }
