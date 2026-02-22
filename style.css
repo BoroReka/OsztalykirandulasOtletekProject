@@ -77,12 +77,12 @@ a.oldal:hover{
 }
 a.oldal:active{
     color: antiquewhite;
-    background-color: rgb(220, 110, 0);
+    background-color: rgb(70,149,214);
     text-decoration: none;   
 }
 a.oldal:focus{
     color: antiquewhite;
-    background-color: rgb(220, 110, 0);
+    background-color: rgb(70,149,214);
     text-decoration: none;   
 }
 
@@ -180,4 +180,18 @@ th{
 }
 .turalap{
     background-color:#C19A6B;
+}
+.indexlap{
+    background-color: lightblue;
+}
+.varoslap{
+    background-color: rgb(255, 201, 143);
+}
+.szabadidolap{
+    background-color: rgb(177, 236, 177);
+}
+.muzeumlap{
+    background-color: lightslategray;
+    background-image: url("0b1e81a36a8367f8efaa835270ece8a9.jpg");
+    background-position: top;
 }
