@@ -144,8 +144,20 @@ h3{
     border-radius: 5px;
     padding: 5px;
 }
-.kepekmeret{
-    width: 550px;
+.szabadidokepek{
+    border:rgb(47, 107, 104) 2px solid;
+    border-radius:15px;
+    width:550px;
+}
+.muzeumkepek{
+    border:rgb(59, 53, 53) 2px solid;
+    border-radius:15px;
+    width:550px;
+}
+.varoskepek{
+    border:rgb(180, 42, 0) 2px solid;
+    border-radius:15px;
+    width:550px;
 }
 figcaption{
     font-size: 25px;
@@ -172,7 +184,7 @@ th{
     border-radius: 20px;
     background-color:lightgreen;
 }
-.dreg{
+.turakepek{
     border:darkolivegreen 2px solid;
     border-radius:15px;
     width:550px;
@@ -195,7 +207,7 @@ th{
 .varos1{
     border:2px solid brown;
     border-radius: 20px;
-    background-color: darkgoldenrod;
+    background-color: rgb(250, 198, 67);
 }
 .happy{
     border:2px solid darkblue;
