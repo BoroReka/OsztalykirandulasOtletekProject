@@ -192,3 +192,13 @@ th{
 .muzeumlap{
     background-color: lightslategray;
 }
+.varos1{
+    border:2px solid brown;
+    border-radius: 20px;
+    background-color: darkgoldenrod;
+}
+.happy{
+    border:2px solid darkblue;
+    border-radius:20px;
+    background-color:cornflowerblue;
+}
