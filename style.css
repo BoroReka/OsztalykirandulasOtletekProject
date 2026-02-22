@@ -2,7 +2,7 @@ html{
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
-    background-color: lightblue;
+    
 }
 .cim{
     font-size: 75px;
@@ -88,7 +88,7 @@ a.oldal:focus{
 
 .content{
     margin: 10px;
-    padding: 150px;
+    padding-left: 150px;
 }
 .kepek{
     border: 2px solid darkblue;
@@ -150,4 +150,34 @@ h3{
 figcaption{
     font-size: 25px;
     text-align: center;
+}
+table, th, td{
+    border: 2px green solid;
+    border-collapse: collapse;
+    background-color:lightgrey
+    
+
+}
+th{
+    background-color: darkseagreen;
+    
+}
+.tura{
+    border:solid 2px ;
+    border-radius: 20px;
+    background-color:darkolivegreen;
+}
+.tura2{
+       border:solid 2px ;
+    border-radius: 20px;
+    background-color:lightgreen;
+}
+.dreg{
+    border:darkolivegreen 2px solid;
+    border-radius:15px;
+    width:325px;
+    height:295px;
+}
+.turalap{
+    background-color:#C19A6B;
 }
