@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=Sober
-Comment=Roblox futtatása Linuxon
-Exec=flatpak run org.vinegarhq.Sober
-Icon=org.vinegarhq.Sober
-Terminal=false
-Categories=Game;
