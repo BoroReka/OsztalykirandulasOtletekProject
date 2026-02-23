@@ -270,6 +270,7 @@ th{
     background-color: skyblue;
 }
 .lista{
+    font-family: "Libre Franklin", sans-serif;
     list-style-position: inside;
         border:rgb(47, 107, 104) 2px solid;
         border-radius: 20px;
@@ -278,6 +279,7 @@ th{
     
 }
 .lista2{
+    font-family: "Libre Franklin", sans-serif;
     border:solid 2px ;
     border-radius: 20px;
     background-color:darkolivegreen;
@@ -286,6 +288,7 @@ th{
 
 }
 .lista3{
+    font-family: "Libre Franklin", sans-serif;
     border:solid 2px ;
     border-radius: 20px;
     background-color:lightgreen;
