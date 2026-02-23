@@ -186,11 +186,13 @@ th{
     border:solid 2px ;
     border-radius: 20px;
     background-color:darkolivegreen;
+    padding: 20px;
 }
 .tura2{
        border:solid 2px ;
     border-radius: 20px;
     background-color:lightgreen;
+    padding: 20px;
 }
 .turakepek{
     border:darkolivegreen 2px solid;
@@ -223,21 +225,24 @@ th{
 .szabadidolap{
     background-color: rgb(177, 236, 177);
 }
+
+.ido{
+    border:rgb(47, 107, 104) 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(109, 162, 134);
+}
 /*----------------------------------------*/
 /*Múzeum weboldal egyedi stíluslap*/
 .muzeumlap{
     background-color: lightslategray;
 }
-/*----------------------------------------*/
-/*Navigation, topbar*/
 
 .happy{
     border:2px solid darkblue;
     border-radius:20px;
+    padding: 20px;
     background-color:cornflowerblue;
 }
-.ido{
-    border:rgb(47, 107, 104) 2px solid;
-    border-radius: 20px;
-    background-color: rgb(109, 162, 134);
-}
+
+
