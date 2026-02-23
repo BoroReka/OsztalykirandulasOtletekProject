@@ -210,6 +210,22 @@ th{
 .indexlap{
     background-color: lightblue;
 }
+.index1{
+    border:solid 2px rgb(38, 160, 119);
+    border-radius: 20px;
+    background-color:aquamarine;
+    padding: 20px;
+    text-align: center;
+}
+.keszitok{
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    
+}
 /*----------------------------------------*/
 /*Város weboldal egyedi stíluslap*/
 .varoslap{
