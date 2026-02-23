@@ -15,5 +15,5 @@ Múzeum: Szentendrei Szabadteri Muzezeum
 Város: Margit-sziget Bp-en nevezetesség: zenélő szökőkút, kis állatkert, utánna Mystique szabadulószoba a Margit hídon keresztül
 Természet: Drégelyvár 
 Szabadidős: Paintball, Lézerharc
-edit: Összebugolt a 2 terminalom, kerem ne vegyek figyelembe a branch elozmenyeket. (en sem tudom mi tortent, egy git ujratelepites megoldotta)
+edit KBT: Összebugolt a 2 terminálom, kérem ne vegyék figyelembe a branch előzmenyeket. (én sem tudom mi törtent, egy git újratelepites viszonylag megoldotta)
 edit JR: sok branch és merge van amiről ötletem sincs honna jöttek, amikor pulloltam kérte hogy merge legyen
