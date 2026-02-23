@@ -172,7 +172,10 @@ figcaption{
 table, th, td{
     border: 2px green solid;
     border-collapse: collapse;
-    background-color:lightgrey
+    background-color:lightgrey;
+    font-size:32px;
+    padding:12px;
+    radius: 20px;
     
 
 }
@@ -244,5 +247,27 @@ th{
     padding: 20px;
     background-color:cornflowerblue;
 }
+.lista{
+    list-style-position: inside;
+        border:rgb(47, 107, 104) 2px solid;
+        border-radius: 20px;
+        padding: 20px;
+        background-color: rgb(109, 162, 134);
+    
+}
+.lista2{
+    border:solid 2px ;
+    border-radius: 20px;
+    background-color:darkolivegreen;
+    padding: 20px;
+    list-style-position: inside;
 
+}
+.lista3{
+    border:solid 2px ;
+    border-radius: 20px;
+    background-color:lightgreen;
+    padding: 20px;
+    list-style-position: inside;
 
+}
