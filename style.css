@@ -163,6 +163,9 @@ figcaption{
     font-size: 25px;
     text-align: center;
 }
+figure{
+    margin-bottom:80px;
+}
 table, th, td{
     border: 2px green solid;
     border-collapse: collapse;
@@ -221,4 +224,3 @@ th{
     border-radius: 20px;
     background-color: rgb(109, 162, 134);
 }
-git push
