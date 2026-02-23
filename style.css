@@ -263,6 +263,12 @@ th{
     padding: 20px;
     background-color:cornflowerblue;
 }
+.happy2{
+    border:2px solid royalblue;
+    border-radius:20px;
+    padding: 20px;
+    background-color: skyblue;
+}
 .lista{
     list-style-position: inside;
         border:rgb(47, 107, 104) 2px solid;
