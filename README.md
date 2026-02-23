@@ -10,7 +10,7 @@ Az oldalak esztétikusan szerkesztettek legyenek!
 Az oldalakhoz egyetlen stíluslap tartozzon!
 A munkájukról egyetlen GIT linket kérünk beadni, amin a munkafolyamatot és az elkészült munkát is látjuk!
 
-Választott témák
+Választott témák:
 Múzeum: Szentendrei Szabadteri Muzezeum
 Város: Margit-sziget Bp-en nevezetesség: zenélő szökőkút, kis állatkert, utánna Mystique szabadulószoba a Margit hídon keresztül
 Természet: Magyarorszag
